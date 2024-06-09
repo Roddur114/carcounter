@@ -9,7 +9,7 @@ cap = cv2.VideoCapture(
 cap.set(3, 1280)
 cap.set(4, 720)
 
-model = YOLO("C:/Users/RODDUR GHOSH/Desktop/object_detection/yolov8n.pt")
+model = YOLO("C:/Users/RODDUR GHOSH/Desktop/object_detection/yolov8l.pt")
 
 classNames = ["person", "bicycle", "car", "motorbike", "aeroplane", "bus", "train", "truck", "boat",
               "traffic light", "fire hydrant", "stop sign", "parking meter", "bench", "bird", "cat",
